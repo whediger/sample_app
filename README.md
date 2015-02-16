@@ -1,5 +1,3 @@
-== README
-
 # Ruby on Rails Tutorial: first application
 
 This is an application compleated as a learning tool from
