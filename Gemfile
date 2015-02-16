@@ -25,13 +25,15 @@ end
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
+#turbolinks added as JS requrement
+gem 'turbolinks'
+
 group :test do
   gem 'capybara', '1.1.2'
 end
 
 group :production do
   gem 'pg'
-  gem 'turbolinks'
 end
 
 
