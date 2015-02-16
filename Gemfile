@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 
 
+#add turbolinks to satisfy JS requirement
+gem 'turbolinks'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
 
@@ -24,6 +27,8 @@ end
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+
+
 
 group :test do
   gem 'capybara', '1.1.2'
