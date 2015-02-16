@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 
 
+#add turbolinks to satisfy JS requirement
+gem 'turbolinks'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
 
