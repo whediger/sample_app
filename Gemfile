@@ -29,7 +29,7 @@ group :test do
   gem 'capybara', '1.1.2'
 end
 
-group production do
+group :production do
   gem 'pg'
 end
 
