@@ -32,8 +32,6 @@ group :test do
 end
 
 group :production do
-  #turbolinks added as JS requrement
-  gem 'turbolinks'
   gem 'pg'
 end
 
