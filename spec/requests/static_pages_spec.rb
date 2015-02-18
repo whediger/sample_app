@@ -37,12 +37,13 @@ describe "Static pages" do
   end
   
   describe "Contact page" do
-    it "should exist"
+    it "should exist" do
       visit '/static_pages/contact'
       page.should have_selector('h1', :text => 'Contact')
     end
     it "should have the right title" do
-      visit '/static_pages/about'
+      visit '/static_pages/contact'
       page.should have_selector('title', :text => "Ruby on Rails Tutorial Sample App | Contact")
     end
+  end
 end
