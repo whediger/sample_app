@@ -35,7 +35,7 @@ gem 'jquery-rails'
 group :test do
   gem 'capybara', '1.1.2'
   #following test gems for mac OS X
-  gem 'rb-fsevent', '0.4.3.1', :require => false
+  gem 'rb-fsevent', '0.9.4', :require => false
   gem 'growl', '1.0.3'
 end
 
