@@ -7,6 +7,8 @@ gem 'turbolinks'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
 
+gem 'bootstrap-sass', '3.3.4.1'
+
 gem 'pg', '0.18.1'
 
 group :development, :test do
